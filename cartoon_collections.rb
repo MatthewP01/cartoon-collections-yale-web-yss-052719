@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
     alter.capitalize
     alter.add("!")
   end
-  return plan
+  return planeteer_calls
   # Your code here
 end
 
