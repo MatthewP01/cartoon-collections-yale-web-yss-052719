@@ -5,8 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.split
-  planeteer_calls.collect do |alter|
+  plan = planeteer_calls.split
+  plan.collect do |alter|
     alter.capitalize
     alter
   # Your code here
