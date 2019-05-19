@@ -5,7 +5,6 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  plan = planeteer_calls.split
   plan.collect do |alter|
     alter.capitalize
     alter.add("!")
