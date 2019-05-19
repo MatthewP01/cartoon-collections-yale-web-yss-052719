@@ -5,3 +5,6 @@ def summon_captain_planet(planeteer_calls)
   return planeteer_calls
   # Your code here
 end
+
+pan = ["one", "two"]
+summon_captain_planet
