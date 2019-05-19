@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   hash = Hash.new
-  dwarves.each_with_index(1) do {|value, index|
+  dwarves.each_with_index(1) do |value, index|
     puts "#{index}: #{value}"
-  }
+  
   end
 end
 
