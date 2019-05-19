@@ -7,4 +7,5 @@ def summon_captain_planet(planeteer_calls)
 end
 
 pan = ["one", "two"]
-summon_captain_planet
+test_ = summon_captain_planet(pan)
+puts test_
