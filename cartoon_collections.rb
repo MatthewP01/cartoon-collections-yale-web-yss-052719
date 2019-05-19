@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   hash = Hash.new
   dwarves.each_with_index(1) do |value, index|
     hash[value] = index
-    puts "#{hash}"
+    puts "#{index}"
 
   end
 end
