@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planet = planeteer_calls.split
   planet.collect do |alter|
-    alter.capitalize + ("!")
+    alter.capitalize + "!"
   end
   return planeteer_calls.join(" ")
   # Your code here
